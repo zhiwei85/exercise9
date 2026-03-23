@@ -1,0 +1,55 @@
+# 大型資料檔案 - 請勿 push 到 GitHub
+*.tif
+*.tiff
+*.img
+*.dem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 環境變數檔案
+.env
+.env.local
+.env.*.local
+
+# 輸出檔案
+*.png
+*.jpg
+*.jpeg
+*.pdf
+terrain_risk_audit.json
+analysis_summary.json
+
+# 作業系統
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# 暫存檔案
+*.tmp
+*.temp

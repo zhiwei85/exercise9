@@ -1,0 +1,51 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+!.env
+
+# Data files (allow specific audit files, exclude others)
+!data/shelter_risk_audit.json
+!data/terrain_risk_audit.json
+!data/fungwong_202511.json
+!shelter_risk_audit.json
+!terrain_risk_audit.json
+data/*.csv
+data/*.json
+!data/scenarios/*.json
+
+# Output files
+*.html
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
